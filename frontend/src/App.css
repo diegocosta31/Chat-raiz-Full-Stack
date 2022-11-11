@@ -1,0 +1,26 @@
+body{
+  background: #76b852;
+  background: -webkit-linear-gradient(to left, #8dc26f, #76b852);
+  background: linear-gradient(to left, #8dc26f, #76b852);
+}
+.App{
+  text-align: center;
+}
+.App-link{
+  color: #61dafb;
+}
+.container{
+  width: 60%;
+}
+#content-chat{
+  height: 550px;
+  overflow-y: scroll;
+}
+#nickname{
+  width: 12em;
+}
+@media only screen and (max-width: 1000px){
+  .container{
+    width: 100%;
+  }
+}
